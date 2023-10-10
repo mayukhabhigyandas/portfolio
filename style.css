@@ -1,0 +1,120 @@
+body{
+    background-color:rgb(20,54,81);
+    margin: 0;
+    text-align: center;
+}
+
+.top-container{
+    background-color:rgb(228,249,245);
+    position:relative;
+    padding-top:50px;
+}
+
+.intro{
+    width:30%;
+    margin:auto;
+}
+
+p{
+    display:block;
+    margin-block-start: 1em;
+    margin-block-end: 3em;
+    margin-inline-start: 0px;
+    margin-inline-end:0px ;
+    color:white;
+}
+
+h2{
+    color:#66bfbf;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h2{
+    display:block;
+    font-size:1.5rem;
+    margin-block-start:0.83rem;
+    margin-block-end:0.83rem;
+    margin-inline-start:0px;
+    margin-inline-end:0px;
+    font-weight:bold;
+    
+}
+.parent{
+    display:grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width:50%;
+    margin:100px auto 0 auto;
+    text-align:left;
+    row-gap:2rem;
+}
+
+div{
+    display:block;
+}
+
+.contact-message{
+    width:40%;
+    margin:40px auto 60px;
+}
+
+a{
+    font-size:20px;
+    color:orange;
+    text-decoration: none;
+}
+
+.middle-container{
+    margin:50px 0;
+    
+
+}
+.skills>h1{
+    color:#66bfbf; 
+}
+
+.title-text>img{
+    width:150px;
+    border-radius:50%;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+    }
+
+h3{
+    color:white;
+}
+
+.profile>h1{
+    color:white;
+}
+
+.web{
+    width:170px;
+    height:110px;
+    margin-right:10px;
+    margin-top:20px;
+    border-radius:10px;
+}
+
+.chess{
+    width:170px;
+    height:110px;
+    margin-right:10px;
+    margin-top:20px;
+    border-radius:10px;
+}
+
+.footer-link{
+    margin-left:20px;
+    
+}
+
+h3{
+    margin-bottom:1px;
+}
+  
